@@ -5,7 +5,4 @@
 
     <xpath expr="/tree/field[@name='total_progress']" position="replace"/>
     <xpath expr="/tree/field[@name='total_effort']" position="replace"/>
-    <xpath expr="/tree/field[@name='progress_amount']" position="replace"/>
-    <xpath expr="/tree/field[@name='percent_progress_amount']" position="replace"/>
-    <xpath expr="/tree/field[@name='progress_quantity_func']" position="replace"/> 
 </data>⏎ 
