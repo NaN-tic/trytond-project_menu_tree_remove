@@ -36,5 +36,18 @@ this repository contains the full copyright notices and license terms. -->
             <field name="view" ref="project.work_view_tree"/>
             <field name="act_window" ref="act_open_project_tree"/>
         </record>
+
+        <record model="ir.ui.view" id="work_view_tree">
+            <field name="model">project.work</field>
+            <field name="inherit" ref="project.work_view_tree"/>
+            <field name="name">work_list</field>
+        </record>
+
+        <record model="ir.ui.view" id="work_view_list">
+            <field name="model">project.work</field>
+            <field name="inherit" ref="project.work_view_list"/>
+            <field name="name">work_list</field>
+        </record>
+
     </data>
 </tryton>
