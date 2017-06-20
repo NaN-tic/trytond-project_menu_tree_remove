@@ -5,4 +5,4 @@
 
     <xpath expr="/tree/field[@name='total_progress']" position="replace"/>
     <xpath expr="/tree/field[@name='total_effort']" position="replace"/>
-</data>⏎ 
+</data>
